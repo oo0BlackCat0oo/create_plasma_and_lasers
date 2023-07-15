@@ -64,7 +64,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 [[dependencies.cpal]]
     modId="minecraft"
     mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.cpal]]
+modId="create"
+mandatory=true
+versionRange="[0.5.1.c,)"
+ordering="NONE"
+side="BOTH"
+
